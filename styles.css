@@ -1,10 +1,48 @@
 .flex-container {
     display: flex;
     justify-content: center;
+    gap: 5%;
+    margin-top: 2%;
 }
 
 .card {
-    border: 5px;
-    border-color: orange
-    border
+    width: 15%;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 40px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    color: white;
+    border-color: rgb(250, 201, 133);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 2%;
+    background-image: linear-gradient(rgba(71, 71, 71, 0.504), rgba(29, 29, 29, 0.497)), linear-gradient(90deg, rgb(88, 88, 88) 50%, rgb(56, 56, 56) 50%);
+    box-shadow:  0 0 0 5px rgb(56, 56, 56), 0 0 0 8px rgb(250, 201, 133), 0 0 0 15px rgb(56, 56, 56);
+}
+
+.card-logo {
+    color:rgb(250, 201, 133);
+    font-size: 4em;
+}
+
+.price {
+    color:rgb(250, 201, 133);
+    font-size: 4em;
+    margin: 0.5em;
+}
+
+.button {
+    background-color:rgb(250, 201, 133);
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+
+.line {
+    border: 0;
+    height: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.112);
 }
